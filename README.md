@@ -20,11 +20,10 @@ Welcome to the Hotel Booking System App! This comprehensive Java-based applicati
 
 ## Technologies Used
 - **Frontend**: Java
-- **Backend**: [Specify backend technologies]
-- **Database**: [Specify the database used]
+- **Database**: Firebase 
 
 ## Getting Started
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/hotel-booking-system-app.git
+   git clone 
    
