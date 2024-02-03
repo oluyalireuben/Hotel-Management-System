@@ -26,4 +26,6 @@ Welcome to the Hotel Booking System App! This comprehensive Java-based applicati
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/oluyalireuben/Hotel-Management-System.git
+
+Run the App on your android device 
    
