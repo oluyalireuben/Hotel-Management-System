@@ -19,8 +19,8 @@ Welcome to the Hotel Booking System App! This comprehensive Java-based applicati
 - **Staff**: Log in to access staff functions, managing guest requests and food orders.
 
 ## Technologies Used
-- **Frontend**: Java
-- **Backend and Database**: Firebase 
+-  Java
+-  Firebase 
 
 ## Getting Started
 **Clone the Repository:**
