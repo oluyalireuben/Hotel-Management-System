@@ -20,7 +20,7 @@ Welcome to the Hotel Booking System App! This comprehensive Java-based applicati
 
 ## Technologies Used
 - **Frontend**: Java
-- **Database**: Firebase 
+- **Backend and Database**: Firebase 
 
 ## Getting Started
 **Clone the Repository:**
