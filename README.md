@@ -17,7 +17,7 @@ Welcome to the Hotel Booking System App! This comprehensive Java-based applicati
 ### User Roles
 - **Guests**: Register and log in to perform guest functions, such as booking accommodations and ordering food.
 - **Staff**: Log in to access staff functions, managing guest requests and food orders.
-
+## Features Added
 ### Google Maps Integration
 - **Explore Our Hotels Worldwide**: Discover our hotels worldwide with the integrated Google Maps feature.
   - Press on the Google Maps cardviews to access a WebView showing Google Maps, allowing users to search for our hotels globally.
