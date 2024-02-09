@@ -93,7 +93,7 @@ public class LoginActivity extends AppCompatActivity {
                                 progressBar.setVisibility(View.GONE);
                             }
                             if ("Guest".equals(userRole)) {
-                                startActivity(new Intent(LoginActivity.this, FindRoomActivity.class));
+                                startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                                 progressBar.setVisibility(View.GONE);
                             }
                         } else {

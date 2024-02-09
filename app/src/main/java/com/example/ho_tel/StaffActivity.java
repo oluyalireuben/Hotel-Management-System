@@ -53,7 +53,7 @@ public class StaffActivity extends AppCompatActivity {
             order_details[i][0] = strData[0];
             order_details[i][1] = strData[1];//+" "+StrData[3];
             if (strData[7].compareTo("Room") == 0) {
-                order_details[i][3] = "From Date:" + strData[4];
+                order_details[i][3] = "Date:" + strData[4] + " "+"Time" + " "+strData[5];
             } else {
                 order_details[i][3] = "Date:" + strData[4] + " "+"Time" + " "+strData[5];
             }

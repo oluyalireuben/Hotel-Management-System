@@ -59,7 +59,7 @@ public class BookRoomActivity extends AppCompatActivity {
         ed1.setText(fullname);
         ed2.setText(address);
         ed3.setText(contact);
-        ed4.setText("Charge Fees" + " " + fees + "/-");
+        ed4.setText("Cost" + " " + fees + "/-");
 
 
         //datePicker
@@ -97,7 +97,7 @@ public class BookRoomActivity extends AppCompatActivity {
                 if (db.checkAppointmentExists(username, title + " => " + fullname, address, contact, dateButton1.getText().toString(), dateButton2.getText().toString()) == 1) {
                     Toast.makeText(getApplicationContext(), "Room already booked", Toast.LENGTH_SHORT).show();
                 } else {
-                    db.addOrder(username, title + " => " + fullname, address, contact, 0, dateButton1.getText().toString(), dateButton2.getText().toString(), Float.parseFloat(fees), "Room");
+                    db.addOrder(username, title + " => " + fullname, address, contact, 0, dateButton1.getText().toString(), dateButton2.getText().toString(), Float.parseFloat(fees), "Food");
                     Toast.makeText(getApplicationContext(), "Your booking is successful", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(BookRoomActivity.this, FindRoomActivity.class));
 

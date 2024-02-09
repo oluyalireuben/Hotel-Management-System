@@ -107,6 +107,7 @@ public class RoomDetailsActivity extends AppCompatActivity {
         else
         if (title.compareTo("Salads")==0)
             room_details = RoomDetails3;
+        else
         if (title.compareTo("Drinks")==0)
             room_details = RoomDetails4;
         else

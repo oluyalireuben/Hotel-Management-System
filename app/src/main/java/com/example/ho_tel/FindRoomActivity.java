@@ -16,11 +16,11 @@ public class FindRoomActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_find_room);
 
-        CardView exit = findViewById(R.id.cardFDBack);
-        exit.setOnClickListener(new View.OnClickListener() {
+        CardView locations = findViewById(R.id.cardFDLocations);
+        locations.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(FindRoomActivity.this, HomeActivity.class));
+                startActivity(new Intent(FindRoomActivity.this, GoogleMapsActivity.class));
             }
         });
 

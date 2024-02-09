@@ -19,6 +19,13 @@
             android:name=".StaffActivity"
             android:exported="false" />
         <activity
+            android:name=".GoogleMapsActivity"
+            android:exported="false" />
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-3ifNhhvjs4bMoHjzp4TLAC2Osa16Rsc"/>
+
+        <activity
             android:name=".DeveloperActivity"
             android:exported="false" />
         <activity
@@ -35,9 +42,6 @@
             android:exported="false" />
         <activity
             android:name=".CustomerCareActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityAirBnB"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

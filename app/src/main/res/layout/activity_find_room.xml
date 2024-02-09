@@ -9,16 +9,16 @@
 
     <TextView
         android:id="@+id/titleMenu"
-        android:layout_width="182dp"
+        android:layout_width="372dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="122dp"
+        android:layout_marginStart="72dp"
         android:layout_marginTop="56dp"
-        android:layout_marginEnd="107dp"
+        android:layout_marginEnd="74dp"
         android:layout_marginBottom="12dp"
         android:gravity="center"
-        android:text="OUR MENU"
+        android:text="OUR MENU AND SERVICES"
         android:textColor="@color/purple_200"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="lUNCH &amp;\nDINNER"
+                    android:text="lUNCH\nAND DINNER"
                     android:textAlignment="center"
                     android:textColor="@color/purple_200"
                     android:textStyle="bold" />
@@ -300,7 +300,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardFDBack"
+            android:id="@+id/cardFDLocations"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="3"
@@ -323,12 +323,12 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/info" />
+                    android:src="@drawable/location1" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="BACK"
+                    android:text="HOTEL LOCATIONS"
                     android:textAlignment="center"
                     android:textColor="@color/purple_200"
                     android:textStyle="bold" />
